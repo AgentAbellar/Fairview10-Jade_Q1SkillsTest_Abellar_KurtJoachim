@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills Test</title>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.3.1/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2025.3.1/core.js"></script>
+</head>
+
+<body>
+    
+<h1>Receipt Generator</h1>
+  <br>
+    <form>
+        <label for="choose">Please input what has been ordered:</label>
+        <br>
+        <input type="checkbox" id="item1" value="110">
+        <label for="item1">Mountain Dew</label>
+        <br>
+        <input type="checkbox" id="item2" value="120">
+        <label for="item2">Coca-cola</label>
+        <br>
+        <input type="checkbox" id="item3" value="80">
+        <label for="item3">Doritos</label>
+        <br>
+        <input type="checkbox" id="item4" value="150">
+        <label for="item4">Egg Sandwich</label>
+        <br>
+        <input type="checkbox" id="item5" value="1">
+        <label for="item5">John</label>
+        <br>
+        <br>
+
+    <button type="button" py-click="create_order">Create Receipt</button>
+    </form>
+
+    <div style="display:flex; flex-direction: column; padding: 20px; border: 1px solid #ccc; max-width: 350px; margin: 0 auto; font-family: 'Courier New', Courier, monospace; font-size: 14px;">
+    <h1>HALI</h1>
+    <li>567 4TH AVE</li> 
+    <li>CHICAGO IL 45343</li>
+    <li>9567852691</li>
+    <li>STORE#: 03619</li>
+    <li>THANKS FOR SHOPPING</li> 
+    <li>HALI</li>
+    <br>
+    <div style="font-size: 20px;" id="output1"></div>
+    <script type="py" src="maen.py"></script>
+    <li>ACCT#: * 1234</li>
+    <li>ACCT TYPE: DDA</li>
+    <li>AUTH CODE: 0</li>
+    <li>APPROVAL# 435423</li>
+    <li>APPROVAL TIME: 143243</li>
+    <li>Maestro</li>
+    <li>STORE#: 03619</li>
+    <li>TERM# 12312435324 12</li>
+    <li>TERM SEQ# 562342</li>
+    <li>REF#: 95322 23 123 1</li>
+    <li>APPROVED</li>
+    <br>
+    <p>CUSTOMER AGREES TO PAY THE ABOVE TOTAL AMOUNT ACCORDING TO THE CARD HOLDERS AGREEMENT</p>
+    <p>HAVE YOU TRIED OUR NEW CHIPS FLAVOR? T#03 OP34 TRN0130 09/29/2026 7:17 AM</p>
+    </div>
+
+</body>
+
+</html>
